@@ -5,6 +5,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url('https://media2.giphy.com/media/3o85xEIe1YKaGrSvhC/giphy.gif');
+    background-size: 60%;
 }
 
 .navbar{
@@ -67,6 +69,7 @@ body{
  body{
     font-family: 'Oswald', sans-serif;
     background-color: #999999;
+    color: #ffffff;
    
  }
 
@@ -78,3 +81,4 @@ body{
  .navbar-links ul li a{
      font-size: 1rem;
  }
+ 
