@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('https://media2.giphy.com/media/3o85xEIe1YKaGrSvhC/giphy.gif');
+    background-image: url(./background.gif);
     background-size: 60%;
 }
 
@@ -68,8 +68,9 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
  body{
     font-family: 'Oswald', sans-serif;
-    background-color: #999999;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/951841177139103404/C7F58EC388A161711B47C3684F83569D8885349E/');
     color: #ffffff;
+    background-size: 100%;
    
  }
 
@@ -82,3 +83,9 @@ body{
      font-size: 1rem;
  }
  
+h3{
+    max-width: 2000px;
+    text-align: center;
+    color: #ffffff;
+    
+}
