@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,8 +9,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680');
+    background-image: url(./background.gif);
     background-size: 100%;
+
 }
 
 .navbar{
@@ -15,10 +20,12 @@ body{
     align-items: center;
     background-color: #333;
     color: white;
+    font-size: 3rem;
+    
 }
 
 .brand-title{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0.5rem;
 }
 
@@ -36,6 +43,7 @@ body{
     text-decoration: none;
     color: white;
     padding: 1rem;
+    font-size: 0.5rem;
     
     
     
@@ -46,16 +54,7 @@ body{
     background-color: #555;
 }
 
-.toggle-button{
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
+
 
 .toggle-button .bar{
     height: 3px;
@@ -64,21 +63,22 @@ body{
     border-radius: 10px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
- body{
-    font-family: 'Oswald', sans-serif;
-    background-color: #999999;
-   
- }
+
+
 
  .brand-title{
     font-family: 'Goldman', cursive;
+    font-size: 1.5rem;
 
  }
 
  .navbar-links ul li a{
-     font-size: 1rem;
+     font-size: 1.05rem;
  }
-
  
+.content {
+    font-size: 2rem;
+    color: #FFFFFF;
+
+}
+
